@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Softech Global Services - Soniv Ahmad | Full Stack Developer</title>
+    <title>Soniv Ahmad - Full Stack Developer | Softech Global Services</title>
     
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Soniv Ahmad - Full Stack Developer & Creative Problem Solver. Specializing in modern web applications with clean code and exceptional user experiences.">
-    <meta name="keywords" content="Full Stack Developer, Web Developer, React, Node.js, JavaScript, Portfolio, Soniv Ahmad, Softech Global Services">
+    <meta name="description" content="Soniv Ahmad - Full Stack Developer from New Delhi, India. Specializing in React, Node.js, and modern web applications. Softech Global Services - Professional web development solutions.">
+    <meta name="keywords" content="Soniv Ahmad, Full Stack Developer, New Delhi, India, React Developer, Node.js Developer, Web Developer, Softech Global Services, Portfolio, JavaScript, MongoDB, Express.js">
     <meta name="author" content="Soniv Ahmad">
     
     <!-- Open Graph Meta Tags -->
@@ -25,6 +25,16 @@
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Google Analytics (replace GA_MEASUREMENT_ID with your actual ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -286,10 +296,14 @@
                             <i class="fab fa-whatsapp"></i>
                             <a href="https://wa.me/918126662400?text=Hi%20Soniv!%20I%20saw%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20project." class="contact-link whatsapp-link" target="_blank">+91 8126662400</a>
                         </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>New Delhi, India</span>
-                        </div>
+                                             <div class="contact-item">
+                         <i class="fas fa-map-marker-alt"></i>
+                         <span>New Delhi, India</span>
+                     </div>
+                     <div class="contact-item">
+                         <i class="fas fa-building"></i>
+                         <span>Softech Global Services - UDYAM Registered</span>
+                     </div>
                     </div>
                     <div class="social-links">
                         <a href="#" class="social-link"><i class="fab fa-github"></i></a>
@@ -329,6 +343,32 @@
         </div>
     </footer>
 
+    <!-- Schema Markup for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Soniv Ahmad",
+      "jobTitle": "Full Stack Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Softech Global Services"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "New Delhi",
+        "addressCountry": "India"
+      },
+      "email": "sonivahmad@gmail.com",
+      "telephone": "+918126662400",
+      "url": "https://soniv-ahmad-portfolio.vercel.app",
+      "sameAs": [
+        "https://github.com/sonivahmad",
+        "https://linkedin.com/in/sonivahmad"
+      ]
+    }
+    </script>
+    
     <script src="script.js"></script>
 </body>
 </html> 
